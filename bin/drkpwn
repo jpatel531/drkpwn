@@ -1,4 +1,6 @@
-file = File.open('./app.drkpwn', 'r').read
+#!/usr/bin/env ruby
+
+file = File.open(ARGV[0], 'r').read
 
 matches = file.match(/drkpwn\? >>>(.*)<<< pwnd/m)
 
@@ -36,4 +38,3 @@ functions.each do |function|
 		eval method
 	end
 end
-
