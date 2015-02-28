@@ -1,0 +1,13 @@
+drkpwn? >>>
+
+yo = funk( ||=>
+	print("Hello World!")
+
+yo()
+
+greeter = funk(|name|=>
+	print("Hello #{name}")
+
+greeter('Hamilton')
+
+<<< pwnd
