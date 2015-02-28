@@ -3,11 +3,9 @@ drkpwn? >>>
 yo = funk( ||=>
 	print("Hello World!")
 
-yo()
+greeter = funk( |one*two|=>
+	print("Hello #{one} and hello #{two}")
 
-greeter = funk(|name|=>
-	print("Hello #{name}")
-
-greeter('Hamilton')
+greeter("Jamie", "Hamilton")
 
 <<< pwnd
